@@ -2,10 +2,8 @@ cask "wezterm-1b2c" do
   arch arm: "arm64", intel: "x86_64"
 
   version "1.4.0"
-  # Placeholders until the first release is published; the release procedure
-  # replaces them with the checksums of the two published zips.
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
-         intel: "0000000000000000000000000000000000000000000000000000000000000001"
+  sha256 arm:   "5e55936f2bbcdd0813ad53c95b91634d4af5fb8966fa63d77cd052fe2a5b59a2",
+         intel: "4056280f0fdfc7fdbb3822f6663b5141f3e8d0e6d1fbcf1a58c8841c81f246a2"
 
   url "https://github.com/0x1b2c/wezterm/releases/download/1b2c-#{version}/WezTerm-1b2c-#{version}-macos-#{arch}.zip"
   name "WezTerm (1b2c fork)"
